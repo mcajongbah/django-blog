@@ -1,0 +1,26 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss assets/css/tailwind.css -o static/css/tailwind-output.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcajongbah/django-blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mcajongbah/django-blog/issues"
+  },
+  "homepage": "https://github.com/mcajongbah/django-blog#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.2.4",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.0.3"
+  },
+  "dependencies": {}
+}
